@@ -1,0 +1,22 @@
+const operationAncestryData = {
+  operations: [
+    { id: "1",
+      ancestor_id: null,
+      type: "tWO",
+      wo_id: "1234",
+      ver_id: "1",
+      rev_id: "12345",
+      op_id: "123456" 
+    },
+    { id: "2",
+      ancestor_id: "1",
+      type: "eWO",
+      wo_id: "2345",
+      ver_id: "1",
+      rev_id: "23456",
+      op_id: "234567" 
+    },
+  ]
+};
+
+module.exports = operationAncestryData;
